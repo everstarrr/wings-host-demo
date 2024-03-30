@@ -1,0 +1,18 @@
+<!--
+  - Copyright (c) WINGS, 2023.
+  - Property of WINGS. The distribution of proprietary software created by WINGS is strictly prohibited.
+  - There Will Be Consequences. Think about it.
+  -->
+
+<script setup>
+import ArticleTemplate from "@/Components/ArticleTemplate.vue";
+</script>
+
+<template>
+    <ArticleTemplate>
+        <template #title> ghsoiehs </template>
+        <template #content> gsnoiehfoieshfioehs </template>
+    </ArticleTemplate>
+</template>
+
+<style scoped></style>
