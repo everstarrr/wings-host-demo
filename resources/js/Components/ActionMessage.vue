@@ -1,0 +1,26 @@
+<!--
+  - Copyright (c) WINGS, 2023.
+  - Property of WINGS. The distribution of proprietary software created by WINGS is strictly prohibited.
+  - There Will Be Consequences. Think about it.
+  -->
+
+<script setup>
+defineProps({
+    on: Boolean,
+});
+</script>
+
+<template>
+    <div>
+        <transition
+            leave-active-class="transition ease-in duration-1000"
+            leave-from-class="opacity-100"
+            leave-to-class="opacity-0">
+            <div
+                v-show="on"
+                class="text-sm text-neutral-400">
+                <slot />
+            </div>
+        </transition>
+    </div>
+</template>
